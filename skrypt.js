@@ -1,5 +1,5 @@
 var link1 = document.getElementById('link1');
-var link2 = document.getElementById('link2');
+var link2 = document.getElementById('link3');
 var art1 = document.getElementById('art1');
 var art2 = document.getElementById('art2');
 
