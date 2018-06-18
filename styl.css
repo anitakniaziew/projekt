@@ -1,0 +1,102 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+#header {
+  background-color: rgb(196, 196, 196);
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#header a {
+  color: rgb(58, 59, 53);
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+#header a:hover {
+  color: rgb(128, 135, 132);
+}
+
+.body {
+  margin: 20px;
+}
+
+.comment {
+  display: flex;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  margin: 15px;
+  font-size: 13px;
+}
+
+.userInfo {
+  flex-basis: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(217, 241, 251);
+}
+
+.name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.date {
+  color: rgb(105, 105, 105);
+  font-size: 0.8em;
+}
+
+.userInfo, .content {
+padding: 8px;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+#commentForm {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+#commentName, #commentContent, #sendComment {
+  padding: 4px 8px;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+#commentName {
+  margin-bottom: 2px;
+}
+
+#commentContent {
+  height: 160px;
+}
+
+p {
+  text-align: justify;
+}
+
+#sendComment {
+  width: 100px;
+  background-color: white;
+}
+
+button.delete {
+  color: red;
+  border: 0 none;
+  cursor: pointer;
+  font-size: 2em;
+}
